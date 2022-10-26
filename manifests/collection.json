@@ -1,0 +1,13 @@
+{
+  "id" : "https://tiff-tang.github.io/study/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in tiff-tang/study project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://tiff-tang.github.io/study/manifests/manifest.json",
+    "label" : "study"
+  } ]
+}
