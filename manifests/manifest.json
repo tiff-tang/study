@@ -1,0 +1,127 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tiff-tang.github.io/study/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://3fd2d55b-25ce-4c09-8e19-c4695f765ac6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://22cc3485-d56c-490f-8738-335fb80543a0",
+      "@type" : "sc:Canvas",
+      "label" : "dt",
+      "height" : 9626,
+      "width" : 8036,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f45ca912-efdc-4376-80c0-cdadb8293414",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/studie2022$vis_dt.png/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/studie2022$vis_dt.png",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 9626,
+          "width" : 8036
+        },
+        "on" : "http://22cc3485-d56c-490f-8738-335fb80543a0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://49cb11f1-09bb-4fee-845a-a362f0b8ea8d",
+      "@type" : "sc:Canvas",
+      "label" : "repro",
+      "height" : 4412,
+      "width" : 3683,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://01c8d3db-9130-4b0f-9469-78090ac9b7dd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/studie2022$repro.png/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/studie2022$repro.png",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4412,
+          "width" : 3683
+        },
+        "on" : "http://49cb11f1-09bb-4fee-845a-a362f0b8ea8d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4e5e7de7-65ff-4bf6-9d73-305f4452d4b4",
+      "@type" : "sc:Canvas",
+      "label" : "ca",
+      "height" : 1992,
+      "width" : 1686,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7c9cfd8d-25a5-4510-a773-592dce2d4e01",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/studie2022$ca.png/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/studie2022$ca.png",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1992,
+          "width" : 1686
+        },
+        "on" : "http://4e5e7de7-65ff-4bf6-9d73-305f4452d4b4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d4b6b863-c479-4083-be7c-2cc1c59cbece",
+      "@type" : "sc:Canvas",
+      "label" : "face",
+      "height" : 4894,
+      "width" : 7004,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7fa1bd4c-4292-4e22-a0e1-d2332e139aa1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/studie2022$face.png/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/studie2022$face.png",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4894,
+          "width" : 7004
+        },
+        "on" : "http://d4b6b863-c479-4083-be7c-2cc1c59cbece"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
